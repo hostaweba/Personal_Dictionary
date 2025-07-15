@@ -1,0 +1,18 @@
+the words i learned (mark as learned by pressing the button), no need to revise again should be invisible from the list (not delete), and when i want to switch then only that words should show that i learned by pressing button or shortcut key. 
+how is this possible show 
+
+
+a button to load .json file , so i can access derised word list.
+there are many .json files categoried in sections, like:
+
+section1. Storage (never remove or move any word just for storage)
+allWords.json, novel.json, history.json, daily.json
+
+section2. User (can move word to learnedWords.json or copy word to any other .json like, noun.json, verb.josn etc.)
+learnedWords.josn, allWordsLeftover.json, novelLeftover.json, historyLeftover.json, dailyLeftover.json
+noun.json, verb.json, pronunciation.json
+
+
+And only show "Section2. User"  by default, and if user want to see all words then he would choose "Section1. Storage" to see all words  saved in perticaular .json file. 
+
+when i enter any word in perticular .json file (like, history.json or daily.json, novel.json), it should be append to allWords.json too and in "section2. User" too. if any word that is exist already in the allWords.json file then it will be not add in any .json anymore. 
